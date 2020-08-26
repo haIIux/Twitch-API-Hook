@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --twitchPurple: rgb(145, 70, 255);
+  --mainBg: rgb(55, 62, 64);
+  /* --mainFont: "Noto Sans"; */
+  font-family: "Noto Sans", sans-serif;
+}
+
+body {
+  background: var(--mainBg);
+}
+
+.statGrid {
+  display: flex;
+  padding: 1rem 2rem;
+  /* Allows the wrapping of the cards to the next line. */
+  flex-wrap: wrap;
+  /* Centers the cards within the container. */
+  justify-content: center;
+}
+
+.card {
+  /* Centers my text within the cards. */
+  text-align: center;
+  min-width: 25%;
+  padding: 10px 10px;
+  margin: 1rem 1rem;
+  background: rgba(145, 70, 255, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card h4 {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.card-detail {
+  padding: 5px 5px;
+  color: white;
+}
