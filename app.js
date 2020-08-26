@@ -1,11 +1,11 @@
 // Lets try to get some data back.
-// OAUTH TOKEN xm5eubambs5pvsn8v4tlczspi3h9em
+// OAUTH TOKEN REDACTED
 
 // oAuth Token Stuff
 const clientID = {
   headers: {
     "Client-ID": "ba2gcck3s09vnovo0gkq5q5i8v01dp",
-    Authorization: "Bearer xm5eubambs5pvsn8v4tlczspi3h9em",
+    Authorization: "Bearer REDACTED",
   },
 };
 
